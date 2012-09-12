@@ -16,6 +16,10 @@
 		9FD9A9F31600080C000DC541 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9A9F11600080C000DC541 /* MainStoryboard_iPhone.storyboard */; };
 		9FD9A9F61600080C000DC541 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9A9F41600080C000DC541 /* MainStoryboard_iPad.storyboard */; };
 		9FD9A9F91600080C000DC541 /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A9F81600080C000DC541 /* SDViewController.m */; };
+		9FD9AA0B1600166E000DC541 /* foto3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9AA081600166E000DC541 /* foto3@2x.jpg */; };
+		9FD9AA0C1600166E000DC541 /* foto2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9AA091600166E000DC541 /* foto2@2x.jpg */; };
+		9FD9AA0D1600166E000DC541 /* foto1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9AA0A1600166E000DC541 /* foto1@2x.jpg */; };
+		9FD9AA0F16001887000DC541 /* foto-zoom.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9AA0E16001887000DC541 /* foto-zoom.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		9FD9A9F51600080C000DC541 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9FD9A9F71600080C000DC541 /* SDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
 		9FD9A9F81600080C000DC541 /* SDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
+		9FD9AA081600166E000DC541 /* foto3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "foto3@2x.jpg"; sourceTree = "<group>"; };
+		9FD9AA091600166E000DC541 /* foto2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "foto2@2x.jpg"; sourceTree = "<group>"; };
+		9FD9AA0A1600166E000DC541 /* foto1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "foto1@2x.jpg"; sourceTree = "<group>"; };
+		9FD9AA0E16001887000DC541 /* foto-zoom.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "foto-zoom.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		9FD9A9E51600080C000DC541 /* ScrollDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9FD9AA0716000B19000DC541 /* Imagens */,
 				9FD9A9EE1600080C000DC541 /* SDAppDelegate.h */,
 				9FD9A9EF1600080C000DC541 /* SDAppDelegate.m */,
 				9FD9A9F11600080C000DC541 /* MainStoryboard_iPhone.storyboard */,
@@ -99,6 +108,18 @@
 				9FD9A9ED1600080C000DC541 /* ScrollDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FD9AA0716000B19000DC541 /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				9FD9AA0E16001887000DC541 /* foto-zoom.JPG */,
+				9FD9AA081600166E000DC541 /* foto3@2x.jpg */,
+				9FD9AA091600166E000DC541 /* foto2@2x.jpg */,
+				9FD9AA0A1600166E000DC541 /* foto1@2x.jpg */,
+			);
+			name = Imagens;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +177,10 @@
 				9FD9A9EA1600080C000DC541 /* InfoPlist.strings in Resources */,
 				9FD9A9F31600080C000DC541 /* MainStoryboard_iPhone.storyboard in Resources */,
 				9FD9A9F61600080C000DC541 /* MainStoryboard_iPad.storyboard in Resources */,
+				9FD9AA0B1600166E000DC541 /* foto3@2x.jpg in Resources */,
+				9FD9AA0C1600166E000DC541 /* foto2@2x.jpg in Resources */,
+				9FD9AA0D1600166E000DC541 /* foto1@2x.jpg in Resources */,
+				9FD9AA0F16001887000DC541 /* foto-zoom.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
